@@ -57,7 +57,7 @@ export default {
     </div>
     <div class="pricing__details mb-24">
       <div class="details__employees">
-        <h2 class="text-elucidator-700 dark:text-dark-repulser-400">Empleados:</h2>
+        <h2 class="text-elucidator-700 dark:text-dark-repulser-400 mr-10">Empleados:</h2>
         <input
           type="number"
           v-model.number="numEmployees"
