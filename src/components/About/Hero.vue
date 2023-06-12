@@ -5,48 +5,14 @@ export default {
 </script>
 
 <template>
-  <div class="grid grid-cols-2 gap-4 relative dark:text-elucidator-50 custom-background">
-    <div class="md_col-span-2 pt-22 md_pt-24 text-center md_text-left">
-      <span class="fs-base medium-fs-large font-semibold">Grouzy is all about blockchain business solutions </span>
+  <div class="grid grid-cols-3 gap-4 relative dark:text-elucidator-50 custom-background">
+    <div class="col-span-full md_col-span-2 pt-15 md_pt-24 text-center md_text-left">
+      <span class="fs-base medium-fs-large font-semibold">Talent. Hard work. Passion</span>
       <h1
-        class="fs-8 medium-fs-2 font-bold leading-9 md_leading-tight mt-4 mb-10 md_mb-8 relative md_w-auto mx-auto z-20 w-[350px]"
+        class="fs-8 medium-fs-2 font-bold leading-9 md_leading-tight mt-4 mb-10 md_mb-8 relative md_w-auto mx-auto z-20 w-[450px]"
       >
-        We develop the 
+      We are people who are passionate about blockchain technology and solving problems.
       </h1>
-      <form action="/signup" method="get">
-        <input
-          class="flex mx-auto fs-large text-white bg-transparent border border-white border-opacity-20 rounded-full px-7 outline-none w-full md_w-[352px] h-[58px]"
-          type="text"
-          name="email"
-          placeholder="Work e-mail..."
-        /><input type="hidden" name="signup" value="index" />
-        <button
-          class="flex mx-auto justify-center pt-4 fs-large border w-50 font-semibold rounded-full bg-secondary-gradient mt-3-5 md_ml-3-5 md_mt-0 w-full md_w-[252px] h-[58px]"
-        >
-          Create Free Account!
-        </button>
-      </form>
-    </div>
-    <div class="md_col-span-2 pt-22 md_pt-24 md_text-left">
-      <span class="fs-base medium-fs-large font-semibold">Chains. Data. Growth</span>
-      <h1
-        class="fs-8 medium-fs-2 font-bold leading-9 md_leading-tight mt-4 mb-10 md_mb-8 relative md_w-auto mx-auto z-20 w-[350px]"
-      >
-        Blockchain service to incentivize, reward and track employee behaviors
-      </h1>
-      <form action="/signup" method="get">
-        <input
-          class="flex mx-auto fs-large text-white bg-transparent border border-white border-opacity-20 rounded-full px-7 outline-none w-full md_w-[352px] h-[58px]"
-          type="text"
-          name="email"
-          placeholder="Work e-mail..."
-        /><input type="hidden" name="signup" value="index" />
-        <button
-          class="flex mx-auto justify-center pt-4 fs-large border w-50 font-semibold rounded-full bg-secondary-gradient mt-3-5 md_ml-3-5 md_mt-0 w-full md_w-[252px] h-[58px]"
-        >
-          Create Free Account!
-        </button>
-      </form>
     </div>
   </div>
 </template>
@@ -71,17 +37,11 @@ export default {
   border-radius: 50px;
   color: white;
   width: auto;
-  height: 500px;
+  height: 100%;
   margin: 0;
   background-size: 200% 200%;
-  background-image: linear-gradient(45deg, black, #0000ff, #ff00ff);
+  background-image: linear-gradient(45deg, skyblue, black, #ff00ff);
   animation: gradient 5s infinite;
-}
-
-.custom-background input {
-  background-color: white;
-
-  width: 50%;
 }
 
 @keyframes gradient {

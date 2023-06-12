@@ -39,8 +39,8 @@ const dataNavbar: NavbarMenu[] = [
     to: "/",
   },
   {
-    name: "Services",
-    to: "/services",
+    name: "Pricing",
+    to: "/pricing",
   },
   {
     name: "Blog",

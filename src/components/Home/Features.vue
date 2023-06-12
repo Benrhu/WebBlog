@@ -27,7 +27,7 @@ const features = ref([
 
 <template>
   <div class="container mx-auto">
-    <div class="col-span-full md_col-span-2 pt-12 md_pt-24 text-center md_text-left">
+    <div class="col-span-full md_col-span-2 pt-12 md_pt-24 text-center md_text-left dark:text-white">
       <h1
         class="fs-8 medium-fs-2 text-3xl leading-9 md_leading-tight mt-4 mb-10 md_mb-8 relative md_w-auto mx-auto z-20 w-full"
       >
@@ -43,7 +43,7 @@ const features = ref([
       <div
         v-for="(feature, index) in features"
         :key="index"
-        class="feature-card dark:text-white"
+        class="feature-card dark:text-black"
       >
         <img class="w-100 p-10" :src="feature.image" alt="" srcset="" />
         <p class="feature-name">{{ feature.name }}</p>
@@ -69,8 +69,6 @@ const features = ref([
   text-align: center;
 }
 
-.feature-card:hover {
-}
 
 .feature-name {
   font-size: 1.25rem;

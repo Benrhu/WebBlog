@@ -7,7 +7,6 @@ const features = ref([
     description:
       "We are so aware of the potential and benefits of the blockchain that we are willing to give up our lives to ensure that everyone can enjoy its benefits. For this reason, we are committed to improving the blockchain industry.",
     description1: "For this reason, we are committed to improving the blockchain industry.",
-    icon: "path/to/icon1.png",
   },
   {
     name: "We solve problems",
@@ -15,14 +14,12 @@ const features = ref([
       "We love to rack our brains to create solutions that fit perfectly with the needs to be solved. We feel like 007 agents with the latest technology on the market, but instead of blowing up, we grow companies.",
     description1:
       "We feel like 007 agents with the latest technology on the market, but instead of blowing up, we grow companies.",
-    icon: "path/to/icon2.png",
   },
   {
-    name: "We help freelancers",
-    description: "We want to promote the use and growth of blockchain professionals.",
+    name: "We love help Dev juniors",
+    description: "We will provide want to promote the use and growth of blockchain professionals.",
     description1:
-      "For this reason, we also provide free and paid training and resources for those who want to work as blockchain professionals.",
-    icon: "path/to/icon2.png",
+      "For this reason, we will provide free and paid training and resources for those who want to work as blockchain professionals.",
   },
   {
     name: "100% flexibility",
@@ -30,7 +27,6 @@ const features = ref([
       "The good thing about having dna blockchain, is that we can adapt to 100% of the needs and tastes of our customers.",
     description1:
       "The Blockchain is like a kind of technological plasticine that you can mold to your liking to solve and improve your company.",
-    icon: "path/to/icon2.png",
   },
 ])
 </script>
@@ -40,7 +36,7 @@ const features = ref([
     <div
       v-for="(feature, index) in features"
       :key="index"
-      class="feature-card shadow dark:text-white"
+      class="feature-card shadow dark:text-black"
     >
       <h2 class="feature-name">{{ feature.name }}</h2>
       <p class="feature-description">{{ feature.description }}</p>

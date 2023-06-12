@@ -5,6 +5,7 @@
 declare module 'vue' {
   export interface GlobalComponents {
     About: typeof import('./src/components/Navigation/about.vue')['default']
+    AbutUs: typeof import('./src/components/About/AbutUs.vue')['default']
     Article: typeof import('./src/components/Articles/Article.vue')['default']
     ArticlesWidget: typeof import('./src/components/Home/ArticlesWidget.vue')['default']
     CarbonBackToTop: typeof import('~icons/carbon/back-to-top')['default']
@@ -19,6 +20,7 @@ declare module 'vue' {
     CheckBox: typeof import('./src/components/FormElements/Fields/CheckBox.vue')['default']
     Featured: typeof import('./src/components/Services/Featured.vue')['default']
     Features: typeof import('./src/components/About/Features.vue')['default']
+    'Features copy': typeof import('./src/components/About/ImageText.vue')['default']
     FeaturesVue: typeof import('~icons/fe/atures-vue')['default']
     FieldError: typeof import('./src/components/FormElements/FieldError.vue')['default']
     FieldGroup: typeof import('./src/components/FormElements/FieldGroup.vue')['default']
@@ -29,6 +31,7 @@ declare module 'vue' {
     FormResult: typeof import('./src/components/FormElements/FormResult.vue')['default']
     FormTemplate: typeof import('./src/components/FormTemplate.vue')['default']
     Hero: typeof import('./src/components/About/Hero.vue')['default']
+    ImageText: typeof import('./src/components/About/ImageText.vue')['default']
     ImageThree: typeof import('./src/components/Image/ImageThree.vue')['default']
     ImageTwo: typeof import('./src/components/Image/ImageTwo.vue')['default']
     InfoBlock: typeof import('./src/components/FormElements/Fields/InfoBlock.vue')['default']
