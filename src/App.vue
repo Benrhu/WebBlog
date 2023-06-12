@@ -2,11 +2,11 @@
 // In this section, we use @vueuse/head. Check this for more detail
 // https://github.com/vueuse/head
 useHead({
-  title: "Grouzy Blog",
+  title: "Grouzy- Your team performance tool",
   meta: [
     {
       name: "description",
-      content: "Grouzy Blog",
+      content: "Reward your employees with tokens, be the best company in the world and get the best talent",
     },
   ],
 })
